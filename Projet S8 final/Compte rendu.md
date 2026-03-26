@@ -1,4 +1,4 @@
-<img width="901" height="522" alt="image" src="https://github.com/user-attachments/assets/6637a4f2-c95f-4a57-91c3-059a88887714" /># Rapport d'Étude de Cas Scientifique
+# Rapport d'Étude de Cas Scientifique
 # Détection de la Fraude Interne en Entreprise par Apprentissage Automatique
  
 ---
@@ -288,8 +288,6 @@ Le **profil radar** synthétise visuellement ces différences : la surface rouge
 
 ---
 
----
-
 Le violin plot du score de risque par département révèle deux niveaux d'analyse complémentaires :
 
 **Distribution du score de risque brut :**
@@ -306,9 +304,10 @@ Le barplot des taux de fraude révèle une hétérogénéité significative :
 ### 4.5 Segmentation du risque par ancienneté
 
 > **Graphique de référence :** Taux de Fraude par Tranche d'Ancienneté
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/segmentation%20des%20profils%20a%20risque/15.png?raw=true"/>
 
-![Taux de Fraude par Tranche d'Ancienneté — Barres](COLLER_IMAGE_FRAUDE_ANCIENNETE_ICI)
-
+---
 Ce graphique confirme et quantifie la relation entre ancienneté et fraude observée dans les boxplots :
 
 | Tranche | Taux de Fraude |
@@ -446,9 +445,10 @@ La validation des modèles repose sur une **validation croisée stratifiée à 5
 ### 7.1 Métriques de performance comparatives
 
 > **Graphique de référence :** AUC — Validation Croisée (k=5)
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/performance%20des%20modele%20de%20classification/12.png?raw=true"/>
 
-![AUC — Validation Croisée k=5](COLLER_IMAGE_AUC_CV_ICI)
-
+---
 | Modèle | AUC Test | AUC CV-5 | Complexité | Interprétabilité |
 |---|---|---|---|---|
 | **Random Forest** | 0.994 | 0.9951 | Élevée | Modérée (feature importance) |
@@ -461,8 +461,10 @@ Les trois modèles atteignent des performances quasi-parfaites (AUC > 0.99), ref
 
 > **Graphique de référence :** Matrice de Confusion (RF)
 
-![Matrice de Confusion — Random Forest](COLLER_IMAGE_MATRICE_CONFUSION_ICI)
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/performance%20des%20modele%20de%20classification/10.png?raw=true"/>
 
+---
 La matrice de confusion du Random Forest sur les données de test (n=300) :
 
 | | Prédit Non-Fraude | Prédit Fraude |
@@ -483,8 +485,10 @@ Dans le contexte de la détection de fraude, la **minimisation des Faux Négatif
 
 > **Graphique de référence :** Courbes ROC — Comparaison des 3 modèles
 
-![Courbes ROC — Comparaison des 3 modèles](COLLER_IMAGE_ROC_ICI)
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/performance%20des%20modele%20de%20classification/8.png?raw=true"/>
 
+---
 La courbe ROC représente, pour chaque seuil de décision, le taux de vrais positifs (sensibilité) en fonction du taux de faux positifs (1 - spécificité).
 
 - **AUC = 0.5** → modèle équivalent à une classification aléatoire
@@ -497,8 +501,10 @@ Les trois courbes se situent très proches du coin supérieur gauche, signifiant
 
 > **Graphique de référence :** Courbes Précision-Rappel
 
-![Courbes Précision-Rappel](COLLER_IMAGE_PR_ICI)
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/performance%20des%20modele%20de%20classification/9.png?raw=true"/>
 
+---
 Pour les datasets très déséquilibrés, la courbe Précision-Rappel est plus informative que la courbe ROC :
 
 | Modèle | Average Precision (AP) |
@@ -513,8 +519,10 @@ Un AP de 0.925 pour le RF signifie qu'en ciblant les top alertes du modèle, on 
 ### 7.5 Importance des variables
 
 > **Graphique de référence :** Importance des Variables (RF)
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/performance%20des%20modele%20de%20classification/11.png?raw=true"/>
 
-![Importance des Variables — Random Forest (Gini)](COLLER_IMAGE_IMPORTANCE_VARIABLES_ICI)
+---
 
 L'importance des variables mesurée par l'impureté de Gini dans le Random Forest révèle la hiérarchie prédictive suivante :
 
@@ -534,10 +542,11 @@ L'Accès Privilégié représente à lui seul **52 % du pouvoir prédictif** du 
 
 > **Graphiques de référence :** Top 50 Profils à Haut Risque (RF) · Heatmap Département × Accès Privilégié
 
-![Top 50 Profils à Haut Risque — Scatter RF](COLLER_IMAGE_TOP50_ICI)
+ ---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/segmentation%20des%20profils%20a%20risque/16.png?raw=true"/>
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/segmentation%20des%20profils%20a%20risque/17.png?raw=true"/>
 
-![Heatmap Taux de Fraude — Département × Accès Privilégié](COLLER_IMAGE_HEATMAP_ICI)
-
+---
 **Top 50 profils à haut risque :**
 
 Ce graphique présente les 50 individus ayant obtenu les probabilités de fraude les plus élevées selon le modèle RF, classés par rang décroissant :
@@ -568,12 +577,13 @@ Cette heatmap croise deux dimensions déterminantes pour quantifier le taux de f
 ## 8. Recommandations Opérationnelles
 
 > **Graphiques de référence :** Matrice Risque 2×2 · Courbe de Gain Cumulé · 3 Piliers ACFE
+---
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/recommandations%20de%20controle%20interne%20et%20gouvernance/20.png?raw=true">
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/recommandations%20de%20controle%20interne%20et%20gouvernance/19.png?raw=true"/>
+<img width="432" height="402" alt="qr code" src="https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/main/Projet%20S8%20final/Graphiques/recommandations%20de%20controle%20interne%20et%20gouvernance/21.png?raw=true"/>
 
-![Matrice Risque — Priorité d'Audit](COLLER_IMAGE_MATRICE_RISQUE_ICI)
+---
 
-![Courbe de Gain Cumulé — RF vs Aléatoire](COLLER_IMAGE_GAIN_CUMULE_ICI)
-
-![Recommandations Opérationnelles — 3 Piliers](COLLER_IMAGE_RECOMMANDATIONS_ICI)
 
 ### 8.1 Déploiement du modèle
 
@@ -663,27 +673,4 @@ Cette étude repose sur des données synthétiques. Un travail futur devrait : (
 
 ---
 
-## Annexe — Index des Images à Coller
-
-| Placeholder | Graphique correspondant | Section |
-|---|---|---|
-| `COLLER_IMAGE_KPI_ICI` | Tableau de bord KPI (1 000 / 50 / 5% / 19% / 5.4/10) | §4.1 |
-| `COLLER_IMAGE_FRAUDE_DEPARTEMENT_ICI` | Taux de Fraude par Département (barres horizontales) | §4.4 |
-| `COLLER_IMAGE_SCORE_RISQUE_DEPARTEMENT_ICI` | Score de Risque par Département (violin plot + seuil 22.3) | §4.4 |
-| `COLLER_IMAGE_FRAUDE_ANCIENNETE_ICI` | Taux de Fraude par Tranche d'Ancienneté | §4.5 |
-| `COLLER_IMAGE_ANCIENNETE_ICI` | Ancienneté par Profil (boxplot Fraudeur/Non-Fraudeur) | §4.3 |
-| `COLLER_IMAGE_HEURES_SUPP_ICI` | Heures Supplémentaires / Mois (histogramme densité) | §4.3 |
-| `COLLER_IMAGE_CONGES_ICI` | Congés Non Pris (violin plot) | §4.3 |
-| `COLLER_IMAGE_MATRICE_CORRELATION_ICI` | Matrice de Corrélation (heatmap triangulaire) | §4.2 |
-| `COLLER_IMAGE_PRESSION_SATISFACTION_ICI` | Pression vs Satisfaction (scatter plot) | §4.2 |
-| `COLLER_IMAGE_HEATMAP_ICI` | Heatmap Département × Accès Privilégié | §7.6 |
-| `COLLER_IMAGE_TOP50_ICI` | Top 50 Profils à Haut Risque (RF scatter) | §7.6 |
-| `COLLER_IMAGE_MATRICE_CONFUSION_ICI` | Matrice de Confusion (Random Forest) | §7.2 |
-| `COLLER_IMAGE_IMPORTANCE_VARIABLES_ICI` | Importance des Variables RF (Gini) | §7.5 |
-| `COLLER_IMAGE_AUC_CV_ICI` | AUC — Validation Croisée k=5 | §7.1 |
-| `COLLER_IMAGE_ROC_ICI` | Courbes ROC comparatives | §7.3 |
-| `COLLER_IMAGE_PR_ICI` | Courbes Précision-Rappel | §7.4 |
-| `COLLER_IMAGE_RADAR_ICI` | Profil Radar Fraudeur vs Non-Fraudeur | §4.3 |
-| `COLLER_IMAGE_GAIN_CUMULE_ICI` | Courbe de Gain Cumulé | §8.1 |
-| `COLLER_IMAGE_MATRICE_RISQUE_ICI` | Matrice Risque — Priorité d'Audit | §8.2 |
-| `COLLER_IMAGE_RECOMMANDATIONS_ICI` | 3 Piliers Recommandations Opérationnelles | §8.3 |
+| §8.3 |
