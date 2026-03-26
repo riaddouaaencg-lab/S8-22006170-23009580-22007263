@@ -108,8 +108,7 @@ Le fondement théorique de cette étude repose sur le modèle séminal proposé 
 
 
 ```
-<img width="751" height="640" alt="24" src="https://github.com/user-attachments/assets/3bdb9cb1-0261-442e-8163-439d42749321" />
-
+![image alt](https://github.com/riaddouaaencg-lab/S8-22006170-23009580-22007263/blob/f6211300b7d21861c91a46d6ef4fc26dab297278/Projet%20S8%20final/Graphiques/connaisssance%20sur%20la%20base%20de%20donn%C3%A9e/24.png)
 ```
 
 - **La Pression** (*Pressure*) désigne une contrainte perçue ou réelle — financière, professionnelle ou personnelle — qui motive l'individu à enfreindre les règles. Dans notre modèle, elle est opérationnalisée par la variable `Score_Pression_Financiere`.
