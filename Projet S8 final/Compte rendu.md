@@ -1,25 +1,40 @@
-# Rapport d'Étude de Cas Scientifique
-# Détection de la Fraude Interne en Entreprise par Apprentissage Automatique
- 
----
- 
-> **Niveau :** Master 2 Data Science — Semestre 8
-> **Sujet :** Prédiction comportementale du risque de fraude interne
-> **Cadre théorique :** Triangle de la Fraude (Cressey, 1953) · ACFE Report to the Nations 2024
-> **Technologies :** Python 3 · scikit-learn · pandas · matplotlib · seaborn
- 
----
-
-**Établissement :** École Nationale de Commerce et de Gestion de Settat (ENCG Settat)  
-**Option :** Contrôle, Audit et Conseil (CAC)  
-**Module :** Intelligence Artificielle  
-**Année académique :** 2025–2026  
-**Réalisé par :** Riad Douaa /  Rhaouta Salma / Marzaq Fatima-ezzahra
-**Date de remise :** Mars 2026  
+# RAPPORT DE PROJET — SEMESTRE 8
 
 ---
-<img width="432" height="402" alt="qr code" src="https://github.com/user-attachments/assets/dc16b4b6-d35e-49cf-81a7-47109716749b" />
 
+<div align="center">
+
+## École Nationale de Commerce et de Gestion — SETTAT
+### Filière : Contrôle, Audit  et Conseil
+
+---
+
+**Titre du Projet :**
+
+# Détection de la Fraude Interne en Entreprise  
+## Approche par Machine Learning et Analyse Comportementale
+
+---
+
+| Champ | Détail |
+|---|---|
+| **Étudiants** | RIAD Douaa (22006170) — RHAOUTA Salma (23009580) — MARZAQ Fati-Ezz (22007263) |
+| **Encadrant** | Larhlimi Abderrahim |
+| **Filière** | Contrôle, Audit  et Conseil |
+| **Année universitaire** | 2025 – 2026 |
+| **Semestre** | Semestre 8 |
+
+---
+
+*Rapport réalisé dans le cadre du projet de fin de semestre*
+
+</div>
+---
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dc16b4b6-d35e-49cf-81a7-47109716749b" 
+       width="300" 
+       style="border: 2px solid black; padding: 5px; border-radius: 8px;">
+</div>
 ---
 
 ## Avant-propos
