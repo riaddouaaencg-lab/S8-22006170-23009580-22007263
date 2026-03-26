@@ -31,7 +31,32 @@
 </div>
 
 ---
+<div align="center">
+  <h2>👥 L'Équipe du Projet</h2>
+  <br>
+  <table width="100%" style="text-align: center; border: none;">
+    <tr>
+      <td align="center" width="33%">
+        <img src="Projet S8 final/PHOTOS DE PROFIL/pdp trinome.png" alt="Photo de Douaa" width="150" style="border-radius: 50%;"><br><br>
+        <b>RIAD Douaa</b><br>
+        <i>Apogée : 22006170</i>
+      </td>
+      <td align="center" width="33%">
+        <img src="Projet S8 final/PHOTOS DE PROFIL/pdp trinome.png" alt="Photo de Salma" width="150" style="border-radius: 50%;"><br><br>
+        <b>RHAOUTA Salma</b><br>
+        <i>Apogée : 23009580</i>
+      </td>
+      <td align="center" width="33%">
+        <img src="Projet S8 final/PHOTOS DE PROFIL/pdp trinome.png" alt="Photo de Fati-Ezz" width="150" style="border-radius: 50%;"><br><br>
+        <b>MARZAQ Fati-Ezz</b><br>
+        <i>Apogée : 22007263</i>
+      </td>
+    </tr>
+  </table>
+</div>
 
+<br>
+<hr>
 ## Résumé Exécutif
 
 Ce rapport présente une étude analytique portant sur la **détection de la fraude interne en entreprise** à travers le prisme de l'apprentissage automatique (*Machine Learning*). Dans un contexte où les organisations subissent annuellement des pertes colossales imputables aux comportements frauduleux de leurs propres collaborateurs, il devient impératif de développer des outils prédictifs capables d'identifier, en amont, les profils à risque.
